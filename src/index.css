@@ -1,0 +1,38 @@
+/* Center wrapper */
+.chess-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ccc;
+}
+
+/* Main Board Grid */
+.chessboard-frame {
+  display: grid;
+  grid-template-columns: repeat(8, 70px);
+  grid-template-rows: repeat(8, 70px);
+  border: 5px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* Individual Square */
+.square-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+/* Colors */
+.white-bg {
+  background: white;
+  color: black; 
+}
+
+.black-bg {
+  background: rgb(0, 0, 0);
+  color: white; 
+}
